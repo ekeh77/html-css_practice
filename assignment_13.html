@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>You Are Awesome!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <style>
+    * {
+  box-sizing: border-box;
+}
+@keyframes musicstart {
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-music-meinbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*musiclist*/
+
+.musiclist-mainbox {
+  background-color: white;
+  height: 100%;
+  width: 350px;
+  border-radius: 15px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-state {
+padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-state2 {
+    width: 350px;
+    padding: 30px 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+.musiclist-subbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.musicpicture {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: ;
+  margin-top: 20px;
+}
+.music-titel {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.genre {
+  margin: 10px 0px;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+.musiclist-subbox_btns {
+  display: flex;
+  margin: 20px 0px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.shuffle {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin: 0px 10px;
+}
+.Like {
+  padding: 10px 25px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
+  margin: 0px 10px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.3);
+}
+.fa-heart{color: black;}
+.musiclist-listbox {
+  align-items: center;
+}
+.musiclist-listbox_anothermusic-list {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.musiclist-listbox_anothermusic-list:hover {
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
+}
+.musicpicture:hover{
+    transition: 1s ease-in;
+    background-color: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
+}
+.shuffle:hover{
+    transition: 0.3s ease-in;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.musiclist-listbox_anothermusic-artistpiture {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+}
+.musiclist-listbox_anothermusic-discribe {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 60px;
+}
+.musiclist-listbox_anothermusic-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+}
+.musiclist-listbox_anothermusic-songname {
+  font-size: 15px;
+  font-weight: 600;
+}
+.palyer-box {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 60px;
+  width: 280px;
+  border-radius: 30px;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.palyer-box_title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.palyer-box_title-artistname {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  margin-bottom: 7px;
+  margin-right: 70px;
+}
+.fa-pause{
+    margin: 0px 10px;
+}
+.palyer-box_title-songname {
+  font-size: 12px;
+  font-weight: 600;
+}
+/*music-infomation*/
+.music-infomationbox {
+  background-color: white;
+  height: 100%;
+  width: 350px;
+  border-radius: 10px;
+}
+.song-main_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.song-main_title-piture{
+    width: 280px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 20px 10px 5px rgba(216, 76, 76, 0.3);
+}
+.song-main_name{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.song-main_artist{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.3);
+}
+.song_long{
+    margin: 40px 30px;
+}
+.song_time{
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.3);
+}
+.song_langth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.song_langth-start{
+    margin-top: 10px;
+    height: 5px;
+    width: 230px;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    left: 5px;
+}
+.song_langth-circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 5px;
+}
+.song_langth-end{
+    margin-top: 10px;
+    height: 5px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    position: static;
+    right: 15px;
+}
+.song_divice{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px;
+    margin: 50px;
+}
+.fa-sync-alt{
+    color: rgba(0, 0, 0, 0.3);
+    margin-right: 10px;
+}
+.fa-random{
+    color: rgba(0, 0, 0, 0.3);
+    margin-left: 10px;
+}
+    </style>
+  </head>
+  <body>
+
+      <div class="show-music-meinbox">
+        <div class="musiclist-mainbox">
+
+            <header class="top-state2">
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-search"></i>
+            </header>
+
+            <div class="musiclist-subbox">
+                <img src="https://images.unsplash.com/photo-1566853024045-ccf08017f7cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" class="musicpicture"/>
+                <span class="music-titel">Singer, The Creator</span>
+                <span class="genre">Rap, Hip-Hop</span>
+                <div class="musiclist-subbox_btns">
+                    <div class="shuffle">Shuffle</div>
+                    <div class="Like"><i class="fas fa-heart"></i> 212 971</div>
+                </div>    
+            </div> 
+            
+            <div class="musiclist-listbox">
+                <div class="musiclist-listbox_anothermusic">
+                    <div class="musiclist-listbox_anothermusic-list">
+                        <img src="https://images.unsplash.com/photo-1516900448138-898720b936c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" class="musiclist-listbox_anothermusic-artistpiture"/>
+                        <div class="musiclist-listbox_anothermusic-discribe">
+                            <span class="musiclist-listbox_anothermusic-title">Singer, The Creator</span>
+                            <span class="musiclist-listbox_anothermusic-songname">EARFQUAKE</span>
+                        </div> 
+                        <i class="fas fa-ellipsis-v"></i>   
+                    </div>
+                    <div class="musiclist-listbox_anothermusic-list">
+                        <img src="https://images.unsplash.com/photo-1605738862138-6704bedb5202?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" class="musiclist-listbox_anothermusic-artistpiture"/>
+                        <div class="musiclist-listbox_anothermusic-discribe">
+                            <span class="musiclist-listbox_anothermusic-title">Singer, The Creator</span>
+                            <span class="musiclist-listbox_anothermusic-songname">NOVEMBER</span>
+                        </div> 
+                        <i class="fas fa-ellipsis-v"></i>   
+                    </div>
+                    <div class="musiclist-listbox_anothermusic-list">
+                        <img src="https://images.unsplash.com/photo-1556217256-f4e659e15103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" class="musiclist-listbox_anothermusic-artistpiture"/>
+                        <div class="musiclist-listbox_anothermusic-discribe">
+                            <span class="musiclist-listbox_anothermusic-title">Singer, The Creator</span>
+                            <span class="musiclist-listbox_anothermusic-songname">911</span>
+                        </div> 
+                        <i class="fas fa-ellipsis-v"></i>   
+                    </div>
+                    <div class="musiclist-listbox_anothermusic-list">
+                        <img src="https://images.unsplash.com/photo-1593415554138-b4e38fb15162?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" class="musiclist-listbox_anothermusic-artistpiture"/>
+                        <div class="musiclist-listbox_anothermusic-discribe">
+                            <span class="musiclist-listbox_anothermusic-title">Singer, The Creator</span>
+                            <span class="musiclist-listbox_anothermusic-songname">WOLF</span>
+                        </div> 
+                        <i class="fas fa-ellipsis-v"></i>   
+                    </div>
+                </div>
+            </div>
+
+            <div class="palyer-box">
+                <div class="palyer-box_title">
+                    <span class="palyer-box_title-artistname">Singer, The Creator</span>
+                    <span class="palyer-box_title-songname">NOVEMBER</span>
+                </div>
+                <div  class="palyer-box_play">
+                    <i class="fas fa-step-backward"></i>
+                    <i class="fas fa-pause"></i>
+                    <i class="fas fa-step-forward"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="music-infomationbox">
+
+            <header class="top-state">
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-ellipsis-v"></i>   
+            </header>
+
+            <div class="song-main_title">
+                <img src="https://images.unsplash.com/photo-1605738862138-6704bedb5202?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" class="song-main_title-piture">
+                <span class="song-main_name">November</span>
+                <span class="song-main_artist">Tyler, the Creator</span>
+            </div>
+
+            <div class="song_long">
+                <div class="song_time">
+                    <span>1:56</span>
+                    <span>2:21</span>
+                </div>
+                <div class="song_langth">
+                    <div class="song_langth-start"></div>
+                    <div class="song_langth-circle"></div>
+                    <div class="song_langth-end"></div>
+                </div>
+            </div>
+
+            <div class="song_divice">
+                <i class="fas fa-sync-alt fa-lg"></i>
+                <i class="fas fa-step-backward fa-lg"></i>
+                <i class="fas fa-play-circle fa-4x"></i>
+                <i class="fas fa-step-forward fa-lg"></i>
+                <i class="fas fa-random fa-lg"></i>
+            </div>
+        </div>
+      </div>
+  </body>
+</html>

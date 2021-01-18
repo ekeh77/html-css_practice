@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #title{
+                font-size: 30px;
+                position: absolute;
+                left: 550px;
+                bottom: 600px;
+            }
+            body{
+                background-color: rgba(238, 238, 238, 0.849);
+                display: flex;
+                align-items: center;
+                justify-content:space-between;
+                height: 100vh;
+            }
+            div{
+                background-color: tomato;
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                
+            }
+            #tomato{
+                position: absolute;
+                left: 450px;
+            }
+            div:nth-child(3){
+                background-color: teal;
+                position: absolute;
+                left: 700px;
+            }
+            div:nth-child(4){
+                background-color: Burlywood;
+                position: absolute;
+                top: 630px;
+                left: 450px;
+            }
+            div:nth-child(5){
+                background-color: Thistle;
+                position: absolute;
+                top: 630px;
+                left: 700px;
+            }
+            .bigbox{
+                border: 6px solid white;
+            }
+            .name{
+                background-color: white;
+                height: 100px;
+                position: absolute;
+                top: 20px;
+                border: 3px solid white;
+            }
+            p{
+                font-size: 20px;
+                position: relative;
+            }
+            .littleP{
+                font-size: 15px;  
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title">The Best Colors</h1>
+            <div class="bigbox" id="tomato">
+                <div class="name">
+                    <strong><p>Tomato</p></strong>
+                    <strong><p class="littleP">#FF6347</p></strong>
+                </div>
+            </div>
+            <div class="bigbox">
+                <div class="name">
+                    <strong><p>Teal</p></strong>
+                    <strong><p class="littleP">#008080</p></strong>
+                </div>
+            </div>
+            <div class="bigbox">
+                <div class="name">
+                    <strong><p>Burlywood</p></strong>
+                    <strong><p class="littleP">#DEB887</p></strong>
+                </div>
+            </div>
+            <div class="bigbox">
+                <div class="name">
+                    <strong><p>Thistle</p></strong>
+                    <strong><p class="littleP">#D7BFD7</p></strong>
+                </div>
+            </div>
+    </body>
+</html>

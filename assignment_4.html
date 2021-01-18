@@ -1,0 +1,109 @@
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <header>
+        <h2> 
+            Create An Account
+        </h2>
+    </header>
+
+    <main>
+        <form>
+            <div>
+                <label for="First_name"> 
+                    <strong>
+                       First name
+                    </strong> 
+                    <input id="First_name" required placeholder="First name" type="text">
+                </label>
+            </div>
+
+            <div>
+                <label for="Last_name"> 
+                    <strong>
+                        Last name
+                     </strong>
+                    <input id="Last_name" required placeholder="Last name" type="text">
+                </label>
+            </div>
+
+            <div>
+                <label for="Email">
+                    <strong>
+                        Email
+                     </strong>
+                    <input id="Email" required placeholder="Email" type="email">
+                </label>
+            </div>
+
+            <div>
+                <label for="Username">
+                    <strong>
+                        Username
+                     </strong>
+                    <input id="Username" required placeholder="Username" type="text">
+                </label>
+            </div>
+
+            <div> 
+                <label for="Password">
+                    <strong>
+                        Password
+                     </strong>
+                    <input id="Password" required placeholder="Password" type="password" minlength="10">
+                </label>
+            </div>
+
+            <div>
+                <label for="Birth_date">
+                    <strong>
+                        Birth date
+                     </strong>
+                    <input id="Birth_date" required type="date">
+                </label>
+                
+            </div>
+
+            <div>
+                <label for="Happy">
+                    <strong>
+                        How happy are you?
+                     </strong>
+                    <input id="Happy" required type="range" list="tickmarks">
+                    <datalist id="tickmarks">
+                        <option value="0"></option>
+                        <option value="10"></option>
+                        <option value="20"></option>
+                        <option value="30"></option>
+                        <option value="40"></option>
+                        <option value="50"></option>
+                        <option value="60"></option>
+                        <option value="70"></option>
+                        <option value="80"></option>
+                        <option value="90"></option>
+                        <option value="100"></option>
+                    </datalist>    
+                </label>
+                
+            </div>
+            <div>
+                <label for="Color">
+                    <strong>
+                        What is your fav. color?
+                     </strong>
+                    <input id="Color" required type="color">   
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="Create Account">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
