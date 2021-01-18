@@ -1,3 +1,3 @@
 # html&css_practice
 
-This practice of html and css
+This is practice of html and css
