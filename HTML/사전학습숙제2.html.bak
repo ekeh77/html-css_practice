@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>사전학습 숙제 2</title>
+ </head>
+ <body>
+  <table width="900px" height="300px">
+	<tr>
+		<td width="300px" height="200px">
+			<img src="./img/첫번째테이블1-1.jfif" width="300px" height="200px" />
+		</td>
+		<td width="300px" height="200px">
+			<img src="./img/첫번째테이블1-2.jpg" width="300px" height="200px" />
+		</td>
+		<td width="300px" height="200px">
+			<img src="./img/첫번째테이블1-3.jfif" width="300px" height="200px" />
+		</td>
+	</tr>
+	<tr>
+		<td width="200px" height="100px">
+			<font>화사, 김나연의 집에 놓인 디자인 소파의 정체</font>
+			<br>
+			<font size="2" color="#666666">알렛츠ALLETS · 4일 전</font>
+		</td>
+		<td width="200px" height="100px">
+			<font>버려진 옷으로 65만 팔로워 스타 된 80대 부부</font>
+			<br>
+			<font size="2" color="#666666">전성기 · 2일 전</font>
+		</td>
+		<td width="200px" height="100px">
+			<font>품절 대란 예상 '시몬 로샤'를 이 가격에?</font>
+			<br>
+			<font size="2" color="#666666">HMKorea · 1개월 전</font>
+		</td>
+	</tr>
+  </table>
+  <hr>
+  <table width="900px" height="1000px">
+	<tr>
+		<td width="250px" height="200px">
+			<img src="./img/두번째테이블2-1.jpg" width="250px" height="200px" />
+		</td>
+		<td width="650px" height="200px">
+			<font>디자인</font>
+			<br><br>
+			<font size="4">2023년 완공 예정인 뉴욕 맨해튼 공공 해변</font>
+			<br><br>
+			<font>"다른 세상에 와 있는 듯한 기분이 들게 할 것" 끝없는 도시 개발을 추진하고 있는 뉴욕. 눈 깜짝할 새 많은 변화를 주도하며, 대도심 산업과 문화 발전에 앞장서고 있는 뉴욕 맨해튼에 최초의 공공 해변이 건설된다는 소식이다. '갠스부트 페닌슐라 파크(Gansevoort)</font>
+			<br><br>
+			<font>6일 전 · 아이즈매거진</font>
+		</td>
+	</tr>
+	<tr>
+		<td width="250px" height="200px">
+			<img src="./img/두번째테이블2-2.jpg" width="250px" height="200px" />
+		</td>
+		<td width="650px" height="200px">
+			<font>디자인</font>
+			<br><br>
+			<font size="4">넷플릭스에서 핫한 이 작품! 공간 연출은?</font>
+			<br><br>
+			<font>재미있고 아름다운데 심지어 야하다는 소문에 보기 시작한 그 작품! 하지만 보면 볼수록 빠져드는 건 바로 공간 속 멋진 인테리어다. <퀸스 갬빗>, <브리저튼>, <러브 앤 아나키></font>
+			<br><br>
+			<font>리빙센스 · 1주일 전</font>
+		</td>
+	</tr>
+		<tr>
+		<td width="250px" height="200px">
+			<img src="./img/두번째테이블2-3.jpg" width="250px" height="200px" />
+		</td>
+		<td width="650px" height="200px">
+			<font>디자인</font>
+			<br><br>
+			<font size="4">소파가 황금비율이라고? 뉴욕 감성 가득!</font>
+			<br><br>
+			<font>뉴욕 기반 하이엔드 인테리어 디자이너의 손길2021년 뉴욕 감성의 O’ Luxe가 클라우드 소파 컬렉션을 선보인다. 뉴욕에서 하이엔드 인테리어 디자인을 전문으로 한 인테리어 디자인</font>
+			<br><br>
+			<font>디자인프레스 · 1주일 전</font>
+		</td>
+	</tr>
+		<tr>
+		<td width="250px" height="200px">
+			<img src="./img/두번째테이블2-4.jpg" width="250px" height="200px" />
+		</td>
+		<td width="650px" height="200px">
+			<font>디자인</font>
+			<br><br>
+			<font size="4">그냥 펜이 아니라 'S펜'? 모나미 X 갤럭시</font>
+			<br><br>
+			<font>모나미, 삼성전자 갤럭시S21 콜라보 ‘S펜’ 출시문구기업 모나미가 삼성전자의 프리미엄급 스마트폰 갤럭시S21과 콜라보한 터치펜 ‘모나미 153 S펜’을 선보였다.</font>
+			<br><br>
+			<font>디자인프레스 · 1주일전</font>
+		</td>
+	</tr>
+		<tr>
+		<td width="250px" height="200px">
+			<img src="./img/두번째테이블2-5.jpg" width="250px" height="200px" />
+		</td>
+		<td width="650px" height="200px">
+			<font>디자인</font>
+			<br><br>
+			<font size="4">지금은 '샤켓'이 대세! 셀럽들의 샤켓 패션</font>
+			<br><br>
+			<font>셔츠와 재킷의 신박한 만남, ‘샤켓(Shaket)’ 전성시대▼샤켓 스타일링 팁 & 아이템 추천▼겨울에도 사랑받는 레더 재킷. 자칫 올드해 보일 수 있는 각 잡힌 디자인 대신 캐주얼한</font>
+			<br><br>
+			<font>노블레스 · 1주일 전</font>
+		</td>
+	</tr>
+  </table>
+  <hr>
+  <table width="900px" height="300px">
+	<tr>
+		<td width="300px" height="200px">
+			<img src="./img/세번째테이블3-1.jpg" width="300px" height="200px" />
+		</td>
+		<td width="300px" height="200px">
+			<img src="./img/세번째테이블3-2.jpg" width="300px" height="200px" />
+		</td>
+		<td width="300px" height="200px">
+			<img src="./img/세번째테이블3-3.jpg" width="300px" height="200px" />
+		</td>
+	</tr>
+	<tr>
+		<td width="200px" height="100px">
+			<font>까르띠에가 선보인 증강현실 미술 앱</font>
+			<br>
+			<font size="2">디자인프레스 · 1주일 전</font>
+		</td>
+		<td width="200px" height="100px">
+			<font>간절기에 요긴해! 다양한 카디건 스타일링</font>
+			<br>
+			<font size="2">싱글즈 · 1주일 전</font>
+		</td>
+		<td width="200px" height="100px">
+			<font>한 벌쯤은 필수! 셀럽들이 선택한 스프링 니트</font>
+			<br>
+			<font size="2">얼루어코리아 · 1주일 전</font>
+		</td>
+	</tr>
+  </table>
+ </body>
+</html>

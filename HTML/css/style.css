@@ -1,0 +1,130 @@
+.container{
+
+}
+
+.loginform{
+	width: 300px;
+	height: 140px;
+	background-color:#F5F5F5;
+	border: 1px solid #EFEFEF;
+	overflow: auto;
+}
+.daumid{
+	width: 270px;
+	height: 35px;
+	background-color:#FFFFFF;
+	border: 1px solid #F1F1F1;
+	margin-top: 15px;
+	margin-left: 14px;
+	margin-bottom: 5px;
+	
+}
+.kakaoid{
+	width: 270px;
+	height: 35px;
+	background-color:#FEE500;
+	border: 1px solid #F6DD00;
+	margin-left: 14px;
+}
+.logintext{
+	font-size:13px;
+	display: block;
+	float:left;
+	margin-top: 10px
+}
+.logoimg{
+	margin: 5px 10px 0px 40px;
+	float:left;
+}
+.kakaoqr span:hover{
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: blacck;	
+}
+.qricon{
+	margin-top:5px;
+	margin-left:10px;
+	float:left;
+}
+.qrlogin{
+	font-size: 12px;
+	display: block;
+	float:left;
+	margin: 7px 80px 0px 5px;
+
+}
+.join{
+	font-size: 12px;
+	display: block;
+	float:left;
+	margin-top: 7px;
+}
+.adimg{
+	width: 302px;
+	margin: 15px 0px
+}
+#shoppingDiv{
+	width: 300px;
+	height: 800px;
+	border: 1px solid #F6F6F6;
+}
+.shopingBar{
+	width: 300px;
+	height: 50px;
+	background-color:#FBFBFB;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #F6F6F6;	
+}
+.shopping{
+	float:left;
+	margin: 15px 50px 0px  10px;
+}
+.gsShop{
+	float:left;
+	margin: 12px 10px 0px  0px;
+}
+.livingPick{
+	float:left;
+	margin: 12px 0px 0px  0px;
+} 
+.shoppingText{
+	display:block;
+	float:left;
+	color: #999999
+}
+.shoppingImg{
+	margin-right: 5px;
+	float:left;
+}
+.marketBar{
+	clear: left;
+	margin: 10px 0px 0px 2px;
+	font-size: 13px;
+	height: 80px;
+}
+.marketBar span:hover{
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: skyblue;	
+	color: skyblue;
+}
+.shoppingAdImg{
+	float:left;
+	margin-right: 5px;
+}
+.shoppingAd{
+	clear: left;
+}
+.shoppingAd span:hover{
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: skyblue;	
+	color: skyblue;
+}
+.shoppingAdText{
+	margin-right: 4px;
+	width: 70px;;
+	font-size: 10px;
+	float:left;
+}

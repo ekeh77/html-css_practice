@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+ </head>
+ <body>
+	<div id="container">
+		<!-- 로그인 화면 시작 -->
+		<div class="loginform">
+			<div class="daumid">
+				<img class="logoimg" src="./daumimg2/daumlogo.png"/>
+				<span class="logintext">Daum 아이디로 로그인</span>
+			</div>
+			<div class="kakaoid">
+				<img class="logoimg" src="./daumimg2/kakaologo.png"/>
+				<span class="logintext">카카오계정으로 로그인</span>
+			</div>
+			<div class="kakaoqr">
+				<img class="qricon" src="./daumimg2/qricon.png"/>
+				<span class="qrlogin">카카오 QR코드 로그인</span>
+				<span class="join">회원가입</span>
+			</div>
+		</div>
+		<!-- 로그인 화면 끝 -->
+		
+		<!-- 광고 화면 시작 -->
+		<div class="adImgDiv">
+			<img class="adimg" src="./daumimg2/adimg.png" />
+		<div>
+		<!-- 광고 화면 끝 -->
+
+		<!-- 쇼핑 화면 시작 -->
+		<div id="shoppingDiv">
+			<div class="shopingBar">
+				<div class="shopping">
+					<b>쇼핑 &gt;</b>
+				</div>
+				<div class="gsShop">
+					<img class="shoppingImg" src="./daumimg2/gsshop.png"/>
+					<span class="shoppingText">GS샵<span>
+				</div>
+				<div class="livingPick">
+					<img class="shoppingImg" src="./daumimg2/livingpick.png"/>
+					<span class="shoppingText">리빙픽<span>
+				</div>
+			</div>
+			<div class="marketBar">
+				<div class="firstMarket">
+					<span>G마켓</span>
+					<dot>·</dot>
+					<span>옥션</span>
+					<dot>·</dot>
+					<span>하프클럽</span>
+					<dot>·</dot>
+					<span>쿠팡</span>
+					<dot>·</dot>
+					<span>11번가</span>
+					<dot>·</dot>
+					<span>에이블루</span>
+				</div>
+				<div class="secondMarket">
+					<span>패션플러스</span>
+					<dot>·</dot>
+					<span>고려생활건강</span>
+					<dot>·</dot>
+					<span>깔끔대장</span>
+					<dot>·</dot>
+					<span>마이더스비</span>
+				</div>
+				<div class="thirdMarket">
+					<span>아이스탁몰</span>
+					<dot>·</dot>
+					<span>뮬리안</span>
+					<dot>·</dot>
+					<span>조아맘</span>
+					<dot>·</dot>
+					<span>캔마트</span>
+					<dot>·</dot>
+					<span>리린</span>
+					<dot>·</dot>
+					<span>온미</span>
+				</div>
+			</div>
+			<div class="shoppingAdBar">
+				<div class="shoppingAd">
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad01.png" />
+					</div>
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad02.png" />
+					</div>
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad03.png" />
+					</div>
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad04.png" />
+					</div>
+				</div>
+				<div class="shoppingAd">
+					<div class="shoppingAdText">
+						<span>반응 너무 좋아 봄을 닮은 무드</span>
+					</div>
+					<div class="shoppingAdText">
+						<span>딱봐도 예쁘죠? 가격까지 착해요</span>
+					</div>
+					<div class="shoppingAdText">
+						<span>너무예뻐 깜짝 놓치면 후회!</span>
+					</div>
+					<div class="shoppingAdText">
+						<span>단 하나의 감성 지금 당장 만나보세요</span>
+					</div>
+				</div>
+				<div class="shoppingAd">
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad01.png" />
+					</div>
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad02.png" />
+					</div>
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad03.png" />
+					</div>
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad04.png" />
+					</div>
+				</div>
+				<div class="shoppingAd">
+					<div class="shoppingAdText">
+						<span>반응 너무 좋아 봄을 닮은 무드</span>
+					</div>
+					<div class="shoppingAdText">
+						<span>딱봐도 예쁘죠? 가격까지 착해요</span>
+					</div>
+					<div class="shoppingAdText">
+						<span>너무예뻐 깜짝 놓치면 후회!</span>
+					</div>
+					<div class="shoppingAdText">
+						<span>단 하나의 감성 지금 당장 만나보세요</span>
+					</div>
+				</div>
+				<div class="shoppingAd">
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad01.png" />
+					</div>
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad02.png" />
+					</div>
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad03.png" />
+					</div>
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad04.png" />
+					</div>
+				</div>
+				<div class="shoppingAd">
+					<div class="shoppingAdText">
+						<span>반응 너무 좋아 봄을 닮은 무드</span>
+					</div>
+					<div class="shoppingAdText">
+						<span>딱봐도 예쁘죠? 가격까지 착해요</span>
+					</div>
+					<div class="shoppingAdText">
+						<span>너무예뻐 깜짝 놓치면 후회!</span>
+					</div>
+					<div class="shoppingAdText">
+						<span>단 하나의 감성 지금 당장 만나보세요</span>
+					</div>
+				</div>
+				<div class="shoppingAd">
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad01.png" />
+					</div>
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad02.png" />
+					</div>
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad03.png" />
+					</div>
+					<div class="shoppingAdImg">
+						<img width="70px" src="./daumimg2/shopad04.png" />
+					</div>
+				</div>
+				<div class="shoppingAd">
+					<div class="shoppingAdText">
+						<span>반응 너무 좋아 봄을 닮은 무드</span>
+					</div>
+					<div class="shoppingAdText">
+						<span>딱봐도 예쁘죠? 가격까지 착해요</span>
+					</div>
+					<div class="shoppingAdText">
+						<span>너무예뻐 깜짝 놓치면 후회!</span>
+					</div>
+					<div class="shoppingAdText">
+						<span>단 하나의 감성 지금 당장 만나보세요</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 쇼핑 화면 끝 -->
+	</div>
+ </body>
+</html>

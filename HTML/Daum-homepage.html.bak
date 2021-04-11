@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>homepage-Daum</title>
+ </head>
+ <body>
+ <!-- 다음로고및 검색바 시작 -->
+  <table width="1280px" height="150px" align="center" cellpadding ="0" cellspacing="0">
+	<tr>
+		<td width="180px" height="25px">
+			<font color="666666" size="2">다음을 시작페이지로 ▶</font>
+		</td>
+		<td width="700px" height="25px"></td>
+		<td width="400px" height="25px"></td>
+	</tr>
+	<tr>
+		<td width="180px" height="100px"><img src="./daumimg/logo.png" width="166px" height="79px"/></td>
+		<td width="700px" height="100px"><img src="./daumimg/Search_bar.png" width="657px" height="63px"></td>
+		<td width="400px" height="100px" align="right">
+			<font color="black">모든 감정을 무제한으로</font>
+			</br>
+			<font color="black"><b>이모티콘 플러스</b></font>
+			<font color="orange">첫 달 무료!</font>
+		</td>
+	</tr>
+	<tr>
+		<td width="180px" height="25px"></td>
+		<td width="700px" height="25px">
+			<font size="2">코로나19발생현황 웬디 기부요정 김민석 자가격리 이제훈 포스터 혜림 스폐셜MC</font>
+		</td>
+		<td width="400px" height="25px"></td>
+	</tr>
+  </table>
+ <!-- 다음로고및 검색바 끝 -->
+  <table width="1280px" height="10px" cellpadding ="0" align="center" cellspacing="0">
+	<tr>
+		<td width="1280px" height="10px"></td>
+	</tr>
+  </table>
+  <table width="1280px" height="1px" cellpadding ="0" align="center" cellspacing="0">
+	<tr>
+		<td width="1280px" height="1px" bgcolor="999999"></td>
+	</tr>
+  </table>
+ <!-- 내비게이션바 및 날씨 시작 -->
+  <table width="1280px" height="40px" align="center" cellpadding ="0" cellspacing="0">
+	<tr>
+		<td width="80px" height="40px" align="center">
+			<font><b>카페</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>메일</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>뉴스</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>지도</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>증권</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>쇼핑</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>카카오TV</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>웹툰</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>블로그</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>브런치</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>사전</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>게임</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>같이가치</b></font>
+		</td>
+		<td width="80px" height="40px" align="center">
+			<font><b>더보기 ▼</b></font>
+		</td>
+		<td width="80px" height="40px" align="right">
+			<font size="2"><b>02. 23. (화)</b></font>
+		</td>
+		<td width="80px" height="40px" align="right">
+			<font size="2"><b>부산 10 °C</b></font>
+		</td>
+	<tr>
+  </table>
+ <!-- 내비게이션바 및 날씨 끝 -->
+  <table width="1280px" height="1px" cellpadding ="0" align="center" cellspacing="0">
+	<tr>
+		<td width="1280px" height="1px" cellpadding ="0" cellspacing="0" bgcolor="999999"></td>
+	</tr>
+  </table>
+  <table width="1280px" height="10px" cellpadding ="0" align="center" cellspacing="0">
+	<tr>
+		<td width="1280px" height="10px"></td>
+	</tr>
+  </table>
+<!-- 광고 및 로그인 시작 -->
+  <table width="1280px" height="170px" align="center" cellpadding ="0" cellspacing="0">
+	<tr>
+		<td width="880px" height="170px"><img src="./daumimg/ad.png" width="832px" height="158px"/></td>
+		<td width="400px" height="170px" bgcolor="eeeeee">
+		<!-- 로그인 시작 -->
+			<table width="380px" height="160px" align="center" cellpadding ="0" cellspacing="0">
+				<tr><td width="380px" height="15px"></td></tr>
+				<tr>
+					<td width="380px" height="50px" align="center" bgcolor="ffffff">
+						<font>Daum 아이디로 로그인</font>
+					</td>
+				</tr>
+				<tr>
+					<td width="380px" height="50px" align="center" bgcolor="yellow">
+						<font>카카오 계정으로 로그인</font>
+					</td>
+				</tr>
+				<tr>
+					<td width="380px" height="30px">
+						<font size="2">카카오 QR로 로그인</font>
+					</td>
+				</tr>
+				<tr><td width="380px" height="15px"></td></tr>
+			</table>
+		<!-- 로그인 끝 -->
+		</td>
+	</tr>
+  </table>
+<!-- 광고 및 로그인 끝 -->
+  <table width="1280px" height="10px" cellpadding ="0" align="center" cellspacing="0">
+	<tr>
+		<td width="1280px" height="10px"></td>
+	</tr>
+  </table>
+<!-- 뉴스 시작 -->
+ <table width="1280px" height="50px" align="center" cellpadding ="0" cellspacing="0" border="1">
+				<tr>
+					<td width="142px" height="50px" align="center">
+						<font color="black"><b>뉴스</b></font>
+					</td>
+					<td width="142px" height="50px" align="center">
+						<font color="black"><b>...</b></font>
+					</td>
+					<td width="142px" height="50px" align="center">
+						<font color="black"><b>연예</b></font>
+					</td>
+					<td width="142px" height="50px" align="center">
+						<font color="black"><b>스포츠</b></font>
+					</td>
+					<td width="142px" height="50px" align="center">
+						<font color="blue"><b>영화</b></font>
+					</td>
+					<td width="142px" height="50px" align="center">
+						<font color="black"><b>자동차</b></font>
+					</td>
+					<td width="142px" height="50px" align="center">
+						<font color="black"><b>부동산</b></font>
+					</td>
+					<td width="142px" height="50px" align="center">
+						<font><b></b></font>
+					</td>
+					<td width="142px" height="50px" align="center">
+						<font color="black"><b>6/8</b></font>
+					</td>
+				</tr>
+ </table>
+ <table width="1280px" height="1px" cellpadding ="0" align="center" cellspacing="0">
+	<tr>
+		<td width="1280px" height="1px" cellpadding ="0" cellspacing="0" bgcolor="999999"></td>
+	</tr>
+  </table>
+  </br>
+ <table width="1280px" height="200px" align="center" cellpadding ="0" cellspacing="0" border="1">
+	<tr>
+		<td width="320px" height="40px" rowspan="4"><img src="./daumimg/superman.jfif" width="310px" height="180px"/></td>
+		<td width="320px" height="40px" rowspan="4"><img src="./daumimg/working.jfif" width="310px" height="180px"/></td>
+		<td width="640px" height="40px">
+			<font>'미나리' 윤여정 끊임없는 수상..美아이오와 비평가협회 조연</font>
+		</td>
+	</tr>
+	<tr>
+		<td width="640px" height="40px">
+			<font>BTS 최초 OST 참여 영화 '유어 아이즈 텔' 3월 11일 개봉 확정[공식]</font>
+		</td>
+	</tr>
+	<tr>
+		<td width="640px" height="40px">
+			<font>영화 <승리호>가 쏘아 올린 작은 공 4가지</font>
+		</td>
+	</tr>
+	<tr>
+		<td width="640px" height="40px">
+			<font>'디즈니팬' 오마이걸 효정, '라야와 마지막 드래곤' 韓 크레</font>
+		</td>
+	</tr>
+	<tr>
+		<td width="320px" height="40px">
+			<font>슈퍼맨의 새로운 모습 공개! 너무 무섭게 변해버...</font>
+		</td>
+		<td width="320px" height="40px">
+			<font>전 재산 1만원의 워킹맘이 3천억대 소송에서 이...</font>
+		</td>
+		<td width="640px" height="40px">
+			<font>서인국·장동윤·최귀화·성동일 등 120억 SF액션스릴러 '늑대사</font>
+		</td>
+	</tr>
+ </table>
+ <table width="1280px" height="10px" cellpadding ="0" align="center" cellspacing="0">
+	<tr>
+		<td width="1280px" height="10px"></td>
+	</tr>
+  </table>
+ <table width="1280px" height="200px" align="center" cellpadding ="0" cellspacing="0" border="1">
+	<tr>
+		<td width="320px" height="40px" rowspan="4"><img src="./daumimg/movie.jfif" width="310px" height="180px"/></td>
+		<td width="320px" height="40px" rowspan="4"><img src="./daumimg/firstlove.jfif" width="310px" height="180px"/></td>
+		<td width="640px" height="40px">
+			<font>'톰과 제리', 어린이도 어른도, 전 세대 취향 저격..세대별 추</font>
+		</td>
+	</tr>
+	<tr>
+		
+		<td width="640px" height="40px">
+			<font>'소울'→'귀멸의 칼날', 애니메이션 강세로 숨통트인 극장가[S</font>
+		</td>
+	</tr>
+	<tr>
+		<td width="640px" height="40px">
+			<font>스물아홉 여성 넷의 불안하면서도 불운한 연애담</font>
+		</td>
+	</tr>
+	<tr>
+		<td width="640px" height="40px">
+			<font>"모든 흥 끌어낸 노래"..'아이' 김향기→염혜란, '바나나차차' </font>
+		</td>
+	</tr>
+	<tr>
+		<td width="320px" height="40px">
+			<font>115분간 한국인인게 자랑스럽게 느껴질 이 영화</font>
+		</td>
+		<td width="320px" height="40px">
+			<font>한국, 일본 팬들의 마음을 흔든 두 국민 첫사랑 배우 근황</font>
+		</td>
+		<td width="640px" height="40px">
+			<font>'노매드랜드' 감독, 아시아계 여성 최초 골든글로브 감독상 </font>
+		</td>
+	</tr>
+ </table>
+ <table width="1280px" height="10px" cellpadding ="0" align="center" cellspacing="0">
+	<tr>
+		<td width="1280px" height="10px"></td>
+	</tr>
+  </table>
+ <table width="1280px" height="200px" align="center" cellpadding ="0" cellspacing="0" border="1">
+
+	<tr>
+		<td width="320px" height="160px"><img src="./daumimg/icon.jfif" width="310px" height="160px"/></td>
+		<td width="320px" height="160px"><img src="./daumimg/cry.jfif" width="310px" height="160px"/></td>
+		<td width="320px" height="160px"><img src="./daumimg/this.jfif" width="310px" height="160px"/></td>
+		<td width="320px" height="160px"><img src="./daumimg/light.jfif" width="310px" height="160px"/></td>
+	</tr>
+	<tr>
+		<td width="320px" height="40px">
+			<font>안면 마비를 극복해낸 인간 승리의 아이콘</font>
+		</td>
+		<td width="320px" height="40px">
+			<font>너무 울어서 목소리가 섹시하게 변했다는 엠마 스톤</font>
+		</td>
+		<td width="320px" height="40px">
+			<font>데뷔 55년차 75세 이 배우가 가장 무섭다는 '이것'</font>
+		</td>
+		<td width="320px" height="40px">
+			<font>그날 밤 교통사고가 만들어 낸 조각난 진실</font>
+		</td>
+	</tr>
+ </table>
+<!-- 뉴스 끝 -->
+</body>
+</html>
