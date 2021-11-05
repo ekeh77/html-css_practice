@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        const findMoney = function(){
+            let numberIn = document.getElementById("number");
+            let lotto  = [];
+            for(let i = 0; i < 6; i++){
+
+                let num = Math.floor(Math.random() * 44) + 1;
+
+                for(let j in lotto){
+
+                    if(num == lotto[j]){
+                        num = Math.floor(Math.random() * 44) + 1;
+                    }
+
+                }
+                lotto.push(num);
+            }
+
+            numberIn.innerHTML = lotto;
+        }
+        
+    </script>
+    <title>선제가 부자가 되기위한 로또 기계</title>
+</head>
+<body>
+    <div display="flex" >
+    <h1>자 오늘의 번호 불러드립니다!!</h1>
+    <h2>이선제만의 당첨번호는...</h2>
+    <h3 id="number"></h3>
+    <button onclick="findMoney();">확인!</button>
+    </div>
+</body>
+</html>
